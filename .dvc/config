@@ -1,5 +1,6 @@
 [core]
     remote = langstore
+    autostage = true
 ['remote "langstore"']
     url = gdrive://1UDE8ztyw-GijvAoPlQ_xE8onbd2OZElI/dvcstore
     gdrive_acknowledge_abuse = true
