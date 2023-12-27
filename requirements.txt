@@ -29,7 +29,7 @@ dvc-data==3.3.0
 dvc-http==2.32.0
 dvc-objects==3.0.0
 dvc-render==1.0.0
-dvc-s3==3.0.1
+dvc_s3==3.0.1
 dvc-studio-client==0.18.0
 dvc-task==0.3.0
 entrypoints==0.4
