@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: sudo apt-get update && sudo apt-get install ffmpeg && python src/dataset_utils.py
+      data/raw/spanish.zip
+    deps:
+    - path: data/raw/spanish.zip
+      hash: md5
+      md5: fc800ba0b53e25ebed8206d3f76bc331
+      size: 832638411
+    - path: src/dataset_utils.py
+      hash: md5
+      md5: 5c21c389c63aa5bb081de67f6a8ddbb0
+      size: 1100

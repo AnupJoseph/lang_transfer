@@ -1,6 +1,6 @@
 stages:
   prepare:
-    cmd: python src/dataset_utils.py data/raw/spanish.zip
+    cmd: sudo apt-get update && sudo apt-get install ffmpeg && python src/dataset_utils.py data/raw/spanish.zip
     deps:
     - data/raw/spanish.zip
     - src/dataset_utils.py
